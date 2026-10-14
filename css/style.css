@@ -1,0 +1,91 @@
+
+/* Estilos generales para la pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5efe6;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #6b2737;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Estilo para el contenido principal */
+main {
+    background-color: white;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid #d8c5a5;
+    border-radius: 5px;
+}
+
+/* Estilo para los titulos */
+h2 {
+    color: #6b2737;
+    text-align: center;
+}
+
+/* Estilo para los textos */
+p {
+    margin-bottom: 15px;
+}
+
+/* Estilo para las imagenes */
+figure {
+    text-align: center;
+    margin: 20px;
+}
+
+img {
+    width: 250px;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Estilo para las listas de enlaces */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    background-color: #f5efe6;
+    border-left: 4px solid #6b2737;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+li a {
+    color: #6b2737;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo para las preguntas de la trivia */
+section {
+    background-color: #f5efe6;
+    border-left: 4px solid #6b2737;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+section h3 {
+    color: #6b2737;
+}
+
+/* Estilo para el pie de pagina */
+footer {
+    background-color: #6b2737;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
