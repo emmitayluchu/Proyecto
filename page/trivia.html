@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trivia | Beato Manuel Segura López</title>
+   <link rel="stylesheet" href="../css/style.css"> 
+    <script src="../js/trivia.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Beato Manuel Segura López</h1>
+  </header>
+
+  <main>
+    <h2>Trivia: ¿cuánto sabés sobre el Beato Manuel?</h2>
+    <p>Respondé las 5 preguntas.</p>
+
+
+      <section>
+        <h3>1. ¿A qué orden religiosa pertenecía?</h3>
+         <input type="radio" name="pregunta1" onclick="seleccionarRespuesta1('Jesuitas')">Jesuitas
+         <input type="radio" name="pregunta1" onclick="seleccionarRespuesta1('Escolapios')">Escolapios
+         <input type="radio" name="pregunta1" onclick="seleccionarRespuesta1('Franciscanos')">Franciscanos
+         <input type="radio" name="pregunta1" onclick="seleccionarRespuesta1('Salesianos')">Salesianos
+      </section>
+
+      <section >
+        <h3>2. ¿En qué año ingresó en las Escuelas Pías?</h3>
+         <input type="radio" name="pregunta2" onclick="seleccionarRespuesta('1881')">1881
+         <input type="radio" name="pregunta2" onclick="seleccionarRespuesta2('1899')">1899
+         <input type="radio" name="pregunta2" onclick="seleccionarRespuesta2('1907')">1907
+         <input type="radio" name="pregunta2" onclick="seleccionarRespuesta2('1936')">1936
+      </section>
+
+      <section >
+        <h3>3. ¿Qué cargo tenía en Peralta de la Sal, encargado de formar a los jóvenes que querían ser escolapios?</h3>
+         <input type="radio" name="pregunta3" onclick="seleccionarRespuesta3('Director del colegio')">Director del colegio
+         <input type="radio" name="pregunta3" onclick="seleccionarRespuesta3('Párroco')">Párroco
+         <input type="radio" name="pregunta3" onclick="seleccionarRespuesta3('Maestro de novicios')">Maestro de novicios
+         <input type="radio" name="pregunta3" onclick="seleccionarRespuesta3('Obispo')">Obispo
+      </section>
+
+      <section >
+        <h3>4. Estando detenida la comunidad, ¿qué hizo para que todos pudieran comulgar?</h3>
+         <input type="radio" name="pregunta4" onclick="seleccionarRespuesta4('Rescató las hostias consagradas del oratorio del Noviciado')">Hizo rescatar las hostias consagradas del oratorio del Noviciado
+         <input type="radio" name="pregunta4" onclick="seleccionarRespuesta4('Pidió permiso a los guardias')">Pidió permiso a los guardias para ir a la iglesia
+         <input type="radio" name="pregunta4" onclick="seleccionarRespuesta4('Les dio la comunión en la calle')">Les dio la comunión a escondidas en la calle
+         <input type="radio" name="pregunta4" onclick="seleccionarRespuesta4('No pudo hacerlo')">No pudo hacerlo
+      </section>
+
+      <section>
+        <h3>5. ¿Qué papa lo beatificó el 1 de octubre de 1995?</h3>
+         <input type="radio" name="pregunta5" onclick="seleccionarRespuesta5('Pío XII')">Pío XII
+         <input type="radio" name="pregunta5" onclick="seleccionarRespuesta5('Juan XXIII')">Juan XXIII
+         <input type="radio" name="pregunta5" onclick="seleccionarRespuesta5('Juan Pablo II')">Juan Pablo II
+         <input type="radio" name="pregunta5" onclick="seleccionarRespuesta5('Francisco')">Francisco
+      </section>
+  <main>
+  <button onclick="verResultado()">Ver resultado</button>
+      <p id="resultado"></p>
+
+  </main>
+</body>
+</html>
